@@ -1,0 +1,16 @@
+{
+  "name": "milky-css",
+  "version": "1.0.0",
+  "description": "Simple CSS framework",
+  "main": "src/milky.less",
+  "repository": "https://github.com/mpapillon/milky-css.git",
+  "author": "Maxence Papillon <maxence.papillon@outlook.com>",
+  "license": "WTFPL",
+  "devDependencies": {
+    "less": "^2.7.2",
+    "less-plugin-clean-css": "^1.5.1"
+  },
+  "scripts": {
+    "build": "./node_modules/less/bin/lessc src/milky.less dist/milky.css && ./node_modules/less/bin/lessc --clean-css src/milky.less dist/milky.min.css "
+  }
+}
