@@ -72,6 +72,24 @@ hr.vertical {
   height: 1rem;
   width: 1rem;
 }
+pre,
+code {
+  font-family: "Consolas", "Monaco", "Lucida Console", "Liberation Mono", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Courier New", monospace;
+  font-size: 0.75rem;
+}
+pre {
+  background-color: #f9f9f9;
+  border: 1px solid #f1f1f1;
+  padding: 0.5rem;
+  border-radius: 0.15rem;
+  overflow: auto;
+}
+blockquote {
+  margin: 1rem 0 1rem 0;
+  padding-left: 0.4rem;
+  border-left: 2px solid #b1b1b1;
+  color: #b1b1b1;
+}
 .header {
   background-color: #246f99;
   color: #ffffff;
