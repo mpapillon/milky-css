@@ -1,9 +1,9 @@
 @import "colors";
 
 .header {
-  background-color: @accent-color;
+  background-color: @header-color;
   color: @default-white;
-  box-shadow: 0 2px 0 0 darken(@light-accent-color, 20%);
+  box-shadow: 0 2px 0 0 darken(@header-bottom-color, 20%);
 
   .header-top-corner {
     font-size: 0.9rem;
@@ -31,7 +31,7 @@
   }
 
   .header-bottom {
-    background-color: @light-accent-color;
+    background-color: @header-bottom-color;
     box-shadow: inset 0 2px 0 0 @darken-accent-color;
 
     .header-nav {
@@ -54,7 +54,7 @@
 
         &:hover {
           box-shadow: inset 0 2px 0 0 @darken-accent-color;
-          background-color: lighten(@light-accent-color, 10%)
+          background-color: @header-bottom-hover-color;
         }
 
         &.active {

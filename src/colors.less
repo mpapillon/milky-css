@@ -1,3 +1,8 @@
+// common colors
+@background-color: rgb(241, 241, 241);
+@default-white: rgb(255, 255, 255);
+
+// accent colors
 @accent-color: rgb(36, 111, 153);
 @light-accent-color: tint(lighten(@accent-color, 22%), 15%);
 @darken-accent-color: darken(@accent-color, 10%);
@@ -8,8 +13,15 @@
 @success-color: rgb(97, 167, 86);
 @warning-color: rgb(238, 165, 69);
 
-@background-color: rgb(241, 241, 241);
+// text colors
 @text-color: rgb(63, 63, 63);
-@link-color: @accent-color;
+@links-color: @accent-color;
 
-@default-white: rgb(255, 255, 255);
+// header colors
+@header-color: @accent-color;
+@header-bottom-color: @light-accent-color;
+@header-bottom-hover-color: lighten(@light-accent-color, 10%);
+
+// buttons
+@button-color: @light-accent-color;
+@button-focus-color: darken(@button-color, 10%);

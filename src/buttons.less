@@ -1,7 +1,7 @@
 @import "colors";
 
 .button {
-  background-color: @light-accent-color;
+  background-color: @button-color;
   display: inline-block;
   color: @default-white;
   padding: 0.4rem 0.5rem;
@@ -21,7 +21,7 @@
   }
 
   &:focus, &:active {
-    background-color: darken(@light-accent-color, 10%);
+    background-color: @button-focus-color;
   }
 
   &.danger {
